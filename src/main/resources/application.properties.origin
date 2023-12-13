@@ -1,0 +1,12 @@
+# Конфигурация источника данных
+spring.datasource.driver-class-name=
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+
+# Конфигурация hibernate
+spring.jpa.properties.hibernate.dialect=
+spring.jpa.properties.hibernate.show-sql=true
+
+# Для работы HTTP методов PUT, PATCH, DELETE
+spring.mvc.hiddenmethod.filter.enabled=true
